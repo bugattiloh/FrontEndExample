@@ -1,0 +1,22 @@
+.After1, .After2, .After3 {
+    color: chartreuse;
+}
+
+@media screen and (max-width:600px) {
+    .section1::after {
+        display: none;
+    }
+
+}
+
+@media screen and (max-height:600px) {
+    .section2::after {
+        display: none;
+    }
+}
+
+@media screen and (max-aspect-ratio:8/5) {
+    .section3::after {
+        display: none;
+    }
+}

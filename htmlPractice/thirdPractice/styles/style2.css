@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.block {
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px dashed #40e0d0;
+    margin-top: 100px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 10px);
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.list-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.item2 {
+    border: 5px solid blue;
+}

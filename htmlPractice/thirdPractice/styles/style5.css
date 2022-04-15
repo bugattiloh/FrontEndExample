@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #eeeeee;
+}
+
+.block {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+img {
+    width: calc(16.6% - 15px - 20px);
+    display: inline-block;
+    vertical-align: middle;
+    border: 5px solid black;
+    background: white;
+    padding: 10px;
+}
+
+.row {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}

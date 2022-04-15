@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(238, 238, 238);
+}
+
+section {
+    max-width: 500px;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+.image img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.text { 
+    padding: 20px;
+}
+
+button {
+    background:rgb(0,153,0);
+    color: white;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 0.25rem;
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+@media (max-width:600px) {
+    section {
+        max-width: 400px;
+    }
+}
+
+@media (max-width:400px) {
+    section {
+        max-width: 300px;
+    }
+}
